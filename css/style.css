@@ -17,7 +17,7 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -33,12 +33,14 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
 .phone {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
     button {
         cursor: pointer;
@@ -64,20 +66,25 @@ header {
         color: #434455;
         font-style: normal;
     }
-    .total {
+    .title-1 {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
-        color: #fff;
+        line-height: 1.07;
+        color: #ffffff;
+        letter-spacing: 0.02em;
+        text-align: center;
     }
     .title {
         background: #2e2f42;
     }
-    button {
+    .button {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         background: #4d5ae5;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 0.04em;
+        color: #ffffff;
     }
     .h3-1 {
         font-weight: 500;
@@ -120,9 +127,8 @@ header {
     .introduction {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         color: #2e2f42;
-        line-height: 1.11111;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
@@ -137,5 +143,11 @@ header {
         background: #2e2f42;
     }
     .studio-footer {
+        color: #f4f4fd;
+    }
+    .p-footer {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #f4f4fd;
     }
