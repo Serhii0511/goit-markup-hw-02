@@ -56,6 +56,9 @@ header {
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
+    .nav {
+        color: #2e2f42;
+    }
     .contacts {
         font-size: 16px;
         line-height: 1.5;
