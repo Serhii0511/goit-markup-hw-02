@@ -82,7 +82,7 @@ header {
         letter-spacing: 0.04em;
         color: #ffffff;
     }
-    .h3-1 {
+    .my-work {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -90,7 +90,7 @@ header {
         letter-spacing: 0.02em;
         text-transform: capitalize;
     }
-    .h3-2 {
+    .teams {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -119,6 +119,9 @@ header {
         color: #434455;
         letter-spacing: 0.02em;
         text-align: center;
+    }
+    .my-team {
+        background: #FFFFFF;
     }
     .introduction {
         font-weight: 700;
