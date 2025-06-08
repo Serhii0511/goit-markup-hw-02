@@ -85,6 +85,7 @@ header {
         line-height: 1.2;
         color: #2e2f42;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
     }
     .h3-2 {
         font-weight: 500;
@@ -93,6 +94,7 @@ header {
         color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
     }
     .description {
         font-weight: 400;
