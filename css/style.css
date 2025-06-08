@@ -6,8 +6,11 @@ body {
     background-color: #ffffff;
 }
 
-.contacts a:hover,
-.contacts a:focus {
+.contacts .contact:hover,
+.contacts .contact:focus {
+    color: #404bbf;
+}
+.nav:hover, .nav:focus {
     color: #404bbf;
 }
 header {
