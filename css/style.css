@@ -2,22 +2,43 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color: #2e2f42;
+    color: #434455;
     background-color: #ffffff;
 }
 
 .contacts a:hover,
 .contacts a:focus {
-    color: red;
+    color: #404bbf;
 }
 header {
     background:#fff;
 }
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 
 .button:hover,
 .button:focus {
-    background-color: red;
+    background-color:#404bbf;
     color: black; 
+}
+.mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.phone {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
     button {
         cursor: pointer;
@@ -35,11 +56,13 @@ header {
         color: #2e2f42;
         font-weight: 500;
         line-height: 1.5;
+        letter-spacing: 0.02em;
     }
     .contacts {
         font-size: 16px;
         line-height: 1.5;
         color: #434455;
+        font-style: normal;
     }
     .total {
         font-weight: 700;
