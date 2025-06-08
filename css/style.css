@@ -79,17 +79,27 @@ header {
         line-height: 1.5;
         background: #4d5ae5;
     }
-    h3 {
+    .h3-1 {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         color: #2e2f42;
+        letter-spacing: 0.02em;
+    }
+    .h3-2 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #2e2f42;
+        letter-spacing: 0.02em;
+        text-align: center;
     }
     .description {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         color: #434455;
+        letter-spacing: 0.02em;
     }
     .advantages {
         background: #fff;
@@ -97,11 +107,23 @@ header {
     .team {
         background: #f4f4fd;
     }
-    h2 {
+    .p-team {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+    .introduction {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11111;
         color: #2e2f42;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
     }
     p {
         font-weight: 400;
