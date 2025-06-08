@@ -1,4 +1,94 @@
 body {
-  color: red;
-  background: blue;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2e2f42;
+    background-color: #ffffff;
 }
+
+.contacts a:hover,
+.contacts a:focus {
+    color: red;
+}
+header {
+    background:#fff;
+}
+
+.button:hover,
+.button:focus {
+    background-color: red;
+    color: black; 
+}
+    button {
+        cursor: pointer;
+    }
+    .studio {
+        color: #2e2f42;
+    }
+    .logotip {
+        font-size: 18px;
+        line-height: 1.16667;
+        font-weight: 700;
+    }
+    .nav-menu {
+        font-size: 16px;
+        color: #2e2f42;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .contacts {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+    }
+    .total {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        color: #fff;
+    }
+    .title {
+        background: #2e2f42;
+    }
+    button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        background: #4d5ae5;
+    }
+    h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #2e2f42;
+    }
+    .description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+    }
+    .advantages {
+        background: #fff;
+    }
+    .team {
+        background: #f4f4fd;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        color: #2e2f42;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+    }
+    footer {
+        background: #2e2f42;
+    }
+    .studio-footer {
+        color: #f4f4fd;
+    }
