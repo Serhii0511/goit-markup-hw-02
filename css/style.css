@@ -38,7 +38,6 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 
 button {
@@ -71,11 +70,6 @@ button {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
-    font-style: normal;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 40px;
 }
 
 .title-1 {
@@ -84,7 +78,6 @@ button {
     line-height: 1.07;
     color: #ffffff;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .title {
@@ -116,7 +109,6 @@ button {
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
-    text-align: center;
     text-transform: capitalize;
 }
 
@@ -150,7 +142,6 @@ button {
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .my-team {
@@ -163,7 +154,6 @@ button {
     line-height: 1.11;
     color: #2e2f42;
     letter-spacing: 0.02em;
-    text-align: center;
     text-transform: capitalize;
 }
 
@@ -194,7 +184,6 @@ footer {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
 }
