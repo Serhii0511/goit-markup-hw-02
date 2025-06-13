@@ -1,7 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
     color: #434455;
     background-color: #ffffff;
 }
@@ -10,20 +8,14 @@ body {
 .contacts .contact:focus {
     color: #404bbf;
 }
-.nav:hover, .nav:focus {
+
+.nav:hover,
+.nav:focus {
     color: #404bbf;
 }
-header {
-    background:#fff;
-    width: 1440px;
-    height: 72px;
-}
 
-.top-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+header {
+    background: #fff;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -33,16 +25,14 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 156px;
 }
 
 .button:hover,
 .button:focus {
-    background-color:#404bbf;
-    color: black; 
+    background-color: #404bbf;
+    color: black;
 }
+
 .contact {
     font-size: 16px;
     line-height: 1.5;
@@ -50,187 +40,161 @@ header {
     color: #434455;
     font-style: normal;
 }
-    button {
-        cursor: pointer;
-    }
-    .studio {
-        color: #2e2f42;
-    }
-    .logotip {
-        font-size: 18px;
-        line-height: 1.16667;
-        font-weight: 700;
-    }
-    .nav-menu {
-        font-size: 16px;
-        color: #2e2f42;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        gap: 40px;
-        margin-top: 24px;
-        margin-bottom: 24px;
-        margin-left: 76px;
-    }
-    .nav {
-        color: #2e2f42;
-    }
-    .contacts {
-        font-size: 16px;
-        line-height: 1.5;
-        color: #434455;
-        font-style: normal;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        gap: 40px;
-    }
-    .title-1 {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        color: #ffffff;
-        letter-spacing: 0.02em;
-        text-align: center;
-        padding-left: 472px;
-        padding-right: 472px;
-        padding-top: 188px;
-        padding-bottom: 292px;
-    }
-    .title {
-        background: #2e2f42;
-        width: 1440px;
-        height: 600px;
-        margin-top: 0;
-        margin-bottom: 120px;
-    }
-    .button {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        background: #4d5ae5;
-        font-family: "Roboto", sans-serif;
-        letter-spacing: 0.04em;
-        color: #ffffff;
-        border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        
-    }
-    .botton-box {
-        padding-left: 636px;
-        padding-right: 635px;
-        padding-top: 3px;
-        padding-bottom: 188px;
-    }
-    .my-work {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        color: #2e2f42;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-    }
-    .teams {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        color: #2e2f42;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
-    }
-    .description {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #434455;
-        letter-spacing: 0.02em;
-    }
-    .advantages {
-        background: #fff;
-        width: 1128px;
-        height: 104px;
-        margin-top: 120px;
-        margin-left: 156px;
-        margin-right: 156px;
-    }
-    .advent {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-    }
-    .team {
-        background: #f4f4fd;
-        width: 1440px;
-        height: 732px;
-        margin-top: 120px;
-        margin-bottom: 120px;
-    }
-    .p-team {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #434455;
-        letter-spacing: 0.02em;
-        text-align: center;
-    }
-    .my-team {
-        background: #FFFFFF;
-    }
-    .introduction {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        color: #2e2f42;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
-    }
-    p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #434455;
-    }
-    footer {
-        background: #2e2f42;
-        width: 1440px;
-        height: 312px;
-        margin-right: 46px;
-        margin-left: 46px;
-        margin-bottom: 38px;
-    }
-    .studio-footer {
-        color: #f4f4fd;
-    }
-    .p-footer {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
-    }
-    .our_potfolio {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        text-transform: capitalize;
-    }
-    .portfolio {
-        width: 1128px;
-        height: 1000px;
-        margin-top: 120px;
-        margin-bottom: 158px;
-        margin-left: 156px;
-        margin-right: 156px;
-    }
-    
+
+button {
+    cursor: pointer;
+}
+
+.studio {
+    color: #2e2f42;
+}
+
+.logotip {
+    font-size: 18px;
+    line-height: 1.16667;
+    font-weight: 700;
+}
+
+.nav-menu {
+    font-size: 16px;
+    color: #2e2f42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav {
+    color: #2e2f42;
+}
+
+.contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.title-1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.title {
+    background: #2e2f42;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.my-work {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.teams {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.advantages {
+    background: #fff;
+}
+
+.advent {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team {
+    background: #f4f4fd;
+}
+
+.p-team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.my-team {
+    background: #FFFFFF;
+}
+
+.introduction {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+footer {
+    background: #2e2f42;
+}
+
+.studio-footer {
+    color: #f4f4fd;
+}
+
+.p-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.our_potfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
